@@ -1,0 +1,75 @@
+\documentclass[12pt]{article}
+\usepackage[spanish]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[textwidth=12cm,centering]{geometry}
+%\usepackage[x11names]{xcolor}
+%\usepackage{background}
+\usepackage{tikz}
+
+% Multiple Columns
+\usepackage{multicol}
+
+% Page Margins (and size)
+\geometry{letterpaper, portrait, margin=1.5in}
+
+% No page numbering
+\pagenumbering{gobble}
+
+% New Drink Entry
+\newcommand{\drink}[3]{
+    \begin{center}
+        \noindent\large \textbf{#1}
+        \\\small \textit{#2}\\
+        \normalsize #3 \\
+        \vspace{8 mm}
+    \end{center}
+}
+
+\begin{document}
+
+%\sffamily
+
+\begin{center}
+    \LARGE \textbf{Shots Drinks Menu} \\
+    \small \textit{Jamie's House of Hrach} \\
+    %\large Jamie's House of Hrach \normalsize \\
+    \noindent\rule{6in}{0.4pt}
+\end{center}
+
+    \drink{Blowjob}{Irish Cream, Amaretto or Coffee Liqueur}{
+        Don't use your hands!!!
+    }
+
+    \drink{Jolly Rancher}{Vodka, Sour Apple}{
+        Like it's namesake it's sweet, sour and oh so good.
+    }
+
+    \drink{Jello Shots}{Vodka, Citrus Jello}{
+        An excuse to empty out my fridge. A couple of these will have you on
+        the floor in no time.
+    }
+
+    \drink{Apocalypse Now}{Trader Vic's, 1944}{
+        Like the movie this is hard to take in on one sitting. Not for the
+        faint of heart.
+    }
+
+   \drink{Fireball}{Cinnamon Whiskey}{
+      No party is complete without a round of Fireball shots!
+   }
+
+\vfill
+\begin{center}
+    \noindent\textit{
+        "Whether you're closing on a new home \\
+        or just putting on a pair of pants, \\
+        there's always an occasion for rum." \\
+        - Martin Cate
+    }
+\end{center}
+
+\tikz[remember picture,overlay] \node[opacity=0.3,inner sep=0pt] at (current page.center){\includegraphics[width=\paperwidth,height=\paperheight]{background-image}};
+\clearpage
+
+\end{document}

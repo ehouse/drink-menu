@@ -1,0 +1,91 @@
+\documentclass[12pt]{article}
+\usepackage[spanish]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[textwidth=12cm,centering]{geometry}
+\usepackage{tikz}
+
+% Multiple Columns
+\usepackage{multicol}
+
+% Page Margins (and size)
+\geometry{letterpaper, portrait, margin=1.5in}
+
+% No page numbering
+\pagenumbering{gobble}
+
+% New Drink Entry
+\newcommand{\drink}[3]{
+    \begin{center}
+        \noindent\large \textbf{#1}
+        \\\small \textit{#2}\\
+        \normalsize #3 \\
+        \vspace{8 mm}
+    \end{center}
+}
+
+\begin{document}
+
+\tikz[remember picture,overlay] \node[opacity=1.0,inner sep=0pt] at (current page.center){\includegraphics[width=\paperwidth,height=\paperheight]{background-image}};
+%\clearpage
+
+%\sffamily
+
+\begin{center}
+    \LARGE \textbf{Mixed Drinks Menu} \\
+    \small \textit{Jamie's House of Hrach} \\
+    \noindent\rule{6in}{0.4pt}
+\end{center}
+
+\begin{multicols}{2}
+    \drink{Planter's Punch}{Lime, Rum, Spices}{
+        One of sour, Two of sweet, \\
+        Three of strong, Four of weak.\\
+        A staple of The Cove.
+    }
+
+    \drink{Rum \& Coke}{Rum, Coke, (Optional) Lime}{
+        The goto for those not looking for adventure.
+        Always dependable and there for you.
+    }
+
+    \drink{Tequila Sunrise}{Tequila, Orange, Cherry}{
+        A drink truly made for summer. Fruity with a hint of cherry.
+    }
+
+    \drink{Screw Driver}{Vodka, Orange, (Optional) Peach}{
+        A fruity take on drinking straight vodka. A college party staple.
+    }
+
+    \columnbreak
+
+    \drink{Sex on the Beach}{Vodka, Fruity}{
+        Matched only by Sex on the Beach. This girly drink won't get you laid
+        but you might find yourself on a beach naked. Deceptively alcoholic.
+    }
+
+   \drink{White Lady}{Gin, Citrus, Lime}{
+      A spicy take on the classic sidecar.
+   }
+
+   \drink{Kamikaze}{Vodka, Citrus, Lime}{
+      A drink for those who love citrus and lime. Another take on the classic
+      sidecar
+   }
+
+   \drink{Side Car}{Brandy, Citrus, Lemon}{
+      This classic drink from 1910's will make you wish motorcycle sidecars
+      were still a thing.
+   }
+
+\end{multicols}
+
+\vfill
+\begin{center}
+    \noindent\textit{
+       ``If you can't do your job drunk \\
+       then you can't do your job.'' \\
+       -- Will Orr
+    }
+\end{center}
+\end{document}
