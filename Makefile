@@ -1,12 +1,16 @@
-all: mixed-menu.pdf shots-menu.pdf
+MARKDOWN = pandoc -s
+TEX_SRC := $(patsubst %.tex, %.pdf, $(wildcard *.tex))
+MD_SRC := $(patsubst %.md, %.pdf, $(wildcard *.md))
 
-mixed-menu.pdf: mixed-menu.tex background-image.jpg
-	pdflatex $<
+all: $(MD_SRC) $(TEX_SRC)
 
-shots-menu.pdf: shots-menu.tex background-image.jpg
+%.pdf: %.md Makefile
+	$(MARKDOWN) $< -o $@
+
+%.pdf: %.tex Makefile
 	pdflatex $<
 
 clean: 
-	$(RM) *.log *.pdf
+	$(RM) *.log *.pdf *.aux
 
 .PHONY: all clean
