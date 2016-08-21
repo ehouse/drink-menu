@@ -1,16 +1,17 @@
 MARKDOWN = pandoc -s
-TEX_SRC := $(patsubst %.tex, %.pdf, $(wildcard *.tex))
-MD_SRC := $(patsubst %.md, %.pdf, $(wildcard *.md))
+LATEX    = pdflatex
+TEX_BLD	:= $(patsubst src/%.tex, out/%.pdf, $(wildcard src/*.tex))
+MD_BLD	:= $(patsubst src/%.md, out/%.pdf, $(wildcard src/*.md))
 
-all: $(MD_SRC) $(TEX_SRC)
+all: $(MD_BLD) $(TEX_BLD)
 
-%.pdf: %.md Makefile
+out/%.pdf: src/%.md Makefile
 	$(MARKDOWN) $< -o $@
 
-%.pdf: %.tex Makefile
-	pdflatex $<
+out/%.pdf: src/%.tex Makefile
+	$(LATEX) -output-directory out/ $<
 
-clean: 
-	$(RM) *.log *.pdf *.aux
+clean:
+	$(RM) $(wildcard out/*)
 
 .PHONY: all clean
