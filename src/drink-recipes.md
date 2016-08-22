@@ -78,15 +78,5 @@ Drinkers MUST not use their hands. Best ordered in groups.
 - 1/2 Ounce Vodka or Rum
 - 1/2 Ounce Lime/Lemon Juice
 
-## Jello Shot
-- 1 Package
-
-VERY STRONG!
-
-## Apocalypse Now
-- 1/2 Ounce Dry Vermouth
-- 1/2 Ounce Irish Cream
-- 1/2 Ounce Tequila
-
 ## Fireball
 - 1 Ounce Cinnamon Whiskey
