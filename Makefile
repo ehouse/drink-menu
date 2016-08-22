@@ -9,7 +9,7 @@ out/%.pdf: src/%.md Makefile
 	$(MARKDOWN) $< -o $@
 
 out/%.pdf: src/%.tex Makefile
-	$(LATEX) -output-directory out/ $<
+	$(LATEX) -output-directory out $<
 
 clean:
 	$(RM) $(wildcard out/*)

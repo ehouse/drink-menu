@@ -1,7 +1,7 @@
-# Mixed Drink Receipts
+# Drink Recipes
 
 ## Planter's Punch
-- 1 Ounce Lime Juice
+- 2 Ounce Lime Juice
 - 1 1/2 Ounces Dark Rum
 - 2 Dashes of Bitters
 - 1 Dash of Grenadine
@@ -23,7 +23,7 @@ Mix in Highball glass with ice. Add Lime and Lime Wedge.
 Pour tequila and orange juice into Collins glass over ice. Add Grenadine but do
 not stir.
 
-## ScrewDriver
+## Screwdriver
 - 1 1/2 Ounces of Vodka
 - 3 1/2 Ounces of Orange Juice
 
@@ -37,13 +37,6 @@ Mix in Highball glass with ice and serve.
 
 Mix in Highball glass with ice and serve with garnish.
 
-## White Lady
-- 1 1/3 Ounces Gin
-- 1 Ounce Triple Sec 
-- 1/2 Ounce Lemon Juice
-
-Shake with ice and strain into glass.
-
 ## Kamikaze
 - 1 Ounce Vodka
 - 1 Ounce Triple Sec
@@ -52,8 +45,48 @@ Shake with ice and strain into glass.
 Shake with ice and strain into glass with garnish.
 
 ## Side Car
-- 1 1/2 Cognac
-- 1/2 Triple Sec
-- 1/2 Lemon Juice
+- 1 1/2 Ounce Cognac
+- 1/2 Ounce Triple Sec
+- 1/2 Ounce Lemon Juice
 
-Shake with ice and strain into glass.
+Shake with ice and strain into glass. Replace Cognac with gin for White Lady.
+
+## Lemon Juice
+1 Ounce Lime Concentrate Juice
+1 Ounce Lemon Concentrate Juice
+1 Ounce Agave Synrup
+2 Cups Water
+
+## Lime Juice
+2 Ounce Lemon Concentrate Juice
+1 Ounce Agave Synrup
+2 Cups Water
+
+\pagebreak
+
+# Shot Receipts
+
+## Blow Job
+- 1/2 Ounce Coffee OR Amaretto
+- 1 Ounce Irish Cream
+- Whipped Cream
+
+Drinkers MUST not use their hands. Best ordered in groups.
+
+## Jolly Rancher
+- 1/2 Ounce Sour Apple Mix
+- 1/2 Ounce Vodka or Rum
+- 1/2 Ounce Lime/Lemon Juice
+
+## Jello Shot
+- 1 Package
+
+VERY STRONG!
+
+## Apocalypse Now
+- 1/2 Ounce Dry Vermouth
+- 1/2 Ounce Irish Cream
+- 1/2 Ounce Tequila
+
+## Fireball
+- 1 Ounce Cinnamon Whiskey

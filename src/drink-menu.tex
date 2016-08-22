@@ -1,0 +1,106 @@
+\documentclass[12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+
+% Multiple Columns
+\usepackage{multicol}
+
+% Page Margins (and size)
+\usepackage[letterpaper, portrait, margin=1.5in]{geometry}
+
+% No page numbering
+\pagenumbering{gobble}
+
+% New Drink Entry
+\newcommand{\drink}[3]{
+    \begin{center}
+        \noindent\large \textbf{#1}\\
+        \small \textit{#2}\\
+        \normalsize #3\\
+        \vspace{8 mm}
+    \end{center}
+}
+
+\begin{document}
+   \begin{center}
+       \LARGE \textbf{Drink Menu} \\
+       \small \textit{Jamie's House of Hrach} \\
+       \hrulefill
+   \end{center}
+
+   \begin{multicols}{2}
+       \drink{Planter's Punch}{Lime, Rum, Spices}{
+          Spicy and delicious drunk juice to get any party started.
+       }
+
+       \drink{Rum \& Coke}{Rum, Coke, (Optional) Lime}{
+           The goto for those not looking for adventure.
+           Always dependable and there for you.
+       }
+
+       \drink{Tequila Sunrise}{Tequila, Orange, Cherry}{
+           A drink truly made for summer. Fruity with a hint of cherry.
+       }
+
+       \drink{Screwdriver}{Vodka, Orange, (Optional) Peach}{
+           A fruity take on drinking straight vodka. A college party staple.
+       }
+
+       \columnbreak
+
+       \drink{Sex on the Beach}{Vodka, Fruity}{
+           Matched only by Sex on the Beach. This girly drink won't get you laid
+           but you might find yourself on a beach naked. Deceptively alcoholic.
+       }
+
+      \drink{Kamikaze}{Vodka, Citrus, Lime}{
+         A drink for those who love citrus and lime. A new take on the classic sidecar.
+      }
+
+      \drink{Side Car}{Brandy, Citrus, Lemon}{
+         This classic drink from 1910's will make you wish motorcycle sidecars
+         were still a thing.
+
+         Substitute Gin for White Lady.
+      }
+
+      \end{multicols}
+
+      \vfill
+      \begin{center}
+      \noindent\textit{
+          ``If you can't do your job drunk \\
+          then you can't do your job.'' \\
+          -- Will Orr's Boss
+       }
+   \end{center}
+   \clearpage
+
+   \begin{center}
+      \LARGE \textbf{Shot Menu} \\
+      \small \textit{Jamie's House of Hrach} \\
+      \hrulefill
+      \end{center}
+
+      \drink{Blowjob}{Irish Cream, Amaretto or Coffee Liqueur}{
+         Don't use your hands!!!
+      }
+
+      \drink{Jolly Rancher}{Vodka, Sour Apple}{
+         Like it's namesake it's sweet, sour and oh so good.
+      }
+
+      \drink{Fireball}{Cinnamon Whiskey}{
+         No party is complete without a round of Fireball shots!
+      }
+
+      \vfill
+      \begin{center}
+      \noindent\textit{
+         ``If you can’t do your job drunk \\
+            then you can’t do your job.'' \\
+            -- Will Orr's Boss
+      }
+   \end{center}
+
+\end{document}
